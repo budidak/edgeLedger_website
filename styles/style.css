@@ -75,3 +75,32 @@ img {
   font-weight: 400;
   padding-left: 2rem;
 }
+
+/* Hero */
+.hero {
+  height: 100svh;
+  position: relative;
+  color: #fff;
+  background: url("../images/home/showcase.jpg") no-repeat center center/cover;
+  background-color: rgba(30, 30, 30, 0.9);
+  background-blend-mode: overlay;
+}
+
+.hero .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 2rem;
+}
+
+.hero .content h1 {
+  font-size: 5.5rem;
+}
+
+.hero .content p {
+  font-size: 2.3rem;
+  max-width: 60rem;
+  margin: 2rem 0 3rem;
+}
