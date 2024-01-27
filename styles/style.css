@@ -104,3 +104,17 @@ img {
   max-width: 60rem;
   margin: 2rem 0 3rem;
 }
+
+/* Features */
+.features h3 {
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.features i {
+  background-color: #28a745;
+  color: #fff;
+  padding: 1.6rem;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+}
