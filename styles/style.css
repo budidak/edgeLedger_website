@@ -227,3 +227,14 @@ img {
   padding-bottom: 1rem;
   border-bottom: #ccc solid 1px;
 }
+
+.post .meta {
+  margin-bottom: 3rem;
+}
+
+.post img {
+  width: 30rem;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
