@@ -15,7 +15,7 @@
   </head>
 
   <body>
-    <header class="hero">
+    <header class="hero blog">
       <div class="navbar" id="navbar">
         <h1 class="logo">
           <span class="text-primary"><i class="fas fa-book-open"></i>Edge</span
@@ -23,29 +23,109 @@
         </h1>
         <nav>
           <ul class="nav-list">
-            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
             <li class="nav-item">
-              <a href="#about" class="nav-link">About</a>
+              <a href="index.html" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#cases" class="nav-link">Cases</a>
+              <a href="index.html#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html#cases" class="nav-link">Cases</a>
             </li>
             <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
             <li class="nav-item">
-              <a href="#contact" class="nav-link">Contact</a>
+              <a href="index.html#contact" class="nav-link">Contact</a>
             </li>
           </ul>
         </nav>
       </div>
       <div class="content" id="home">
-        <h1>The Sky Is The Limit</h1>
-        <p>We provide world class financial assistance</p>
-        <a href="#about" class="btn"
-          ><i class="fas fa-chevron-right"></i> Read More</a
-        >
+        <h1>Blog</h1>
       </div>
     </header>
-    <main></main>
+    <main>
+      <article class="flex-columns">
+        <div class="row">
+          <div class="col">
+            <div class="col-1">
+              <img src="images/blog/blog1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col bg-light">
+            <div class="col-2">
+              <h2>Blog Post One</h2>
+              <p class="meta">
+                <i class="fas fa-user"></i>Posted by <strong>John Doe</strong> |
+                April 16, 2020
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                ducimus tempore tempora ipsum ut provident porro, facilis vel
+                voluptatibus veniam facere eos aspernatur unde deserunt debitis
+                dicta laboriosam fugiat incidunt.
+              </p>
+              <a href="post.html" class="btn btn-outline">
+                <i class="fas fa-chevron-right"></i> Read More
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="flex-columns flex-reverse">
+        <div class="row">
+          <div class="col">
+            <div class="col-1">
+              <img src="images/blog/blog2.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col bg-dark">
+            <div class="col-2">
+              <h2>Blog Post Two</h2>
+              <p class="meta">
+                <i class="fas fa-user"></i>Posted by <strong>Jane Doe</strong> |
+                April 16, 2020
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                ducimus tempore tempora ipsum ut provident porro, facilis vel
+                voluptatibus veniam facere eos aspernatur unde deserunt debitis
+                dicta laboriosam fugiat incidunt.
+              </p>
+              <a href="post.html" class="btn btn-outline">
+                <i class="fas fa-chevron-right"></i> Read More
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="flex-columns">
+        <div class="row">
+          <div class="col">
+            <div class="col-1">
+              <img src="images/blog/blog3.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col bg-light">
+            <div class="col-2">
+              <h2>Blog Post Three</h2>
+              <p class="meta">
+                <i class="fas fa-user"></i>Posted by <strong>John Doe</strong> |
+                April 16, 2021
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                ducimus tempore tempora ipsum ut provident porro, facilis vel
+                voluptatibus veniam facere eos aspernatur unde deserunt debitis
+                dicta laboriosam fugiat incidunt.
+              </p>
+              <a href="post.html" class="btn btn-dark">
+                <i class="fas fa-chevron-right"></i> Read More
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
     <footer class="footer bg-dark">
       <div class="social">
         <a href="https://www.facebook.com" target="_blank">
