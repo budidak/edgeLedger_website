@@ -215,3 +215,15 @@ img {
     width: 70%;
   }
 }
+
+/* Post */
+.post {
+  padding: 5rem 3rem;
+}
+
+.post h2 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: #ccc solid 1px;
+}
